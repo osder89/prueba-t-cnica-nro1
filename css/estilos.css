@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(205, 220, 241);
+    display: grid;
+}
+.barra{
+    width: 100%;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: black;
+
+}
+.final{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-self: end;
+    align-items: center;
+    margin-right: 20px;
+}
+.final a{
+    text-decoration: none;
+}
+.inicio {
+    width: 100%;
+    height: auto;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.inicio a{
+    text-decoration: none;
+}
+body{
+    display: grid;
+    margin: auto;
+}
+.info{
+    width: 100%;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.info-1{
+   width: 300px;
+   height: auto;
+   margin-left:15px ;
+   display: grid;
+   align-items: center;
+}
+.info-1 a{
+    width: 70px;
+    height: 30px;
+    text-decoration: none;
+    background-color: rgb(247, 87, 87);
+    color: black;
+}
+.info-1 a:hover{
+    color: rgb(255, 251, 251);
+}
+.info-2{
+    display: flex;
+    justify-self: end;
+    margin-right: 15px;
+}
+.info-2 img{
+    width: 350px;
+    height: 250px;
+}
+.skills{
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.skill-1
+{
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin-left: 15px;
+}
+.titulo{
+    margin-top: 15px;
+    display: flex;
+    justify-self: center;
+    color: red;
+}
+.skill-2{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.logos{
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.logos img{
+    width: 100px;
+    height: 100px;
+ }
+.imagen{
+    display: flex;
+    justify-self: end;
+    margin-right: 15px;
+   
+}
+.imagen img{
+    width: 400px;
+    height: 250px;
+}
+.projects{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(252, 245, 237);
+    display: grid;
+}
+.projects-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    color: red;
+}
+.contepro{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.projects-2{
+    width: 200px;
+    height: 200px;
+    display: grid;
+    margin-top: 15px; 
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 3px solid cornflowerblue;
+    justify-content: center;
+    background-color: #ffffff;
+    
+}
+.projects-2 img{
+    width: 200px;
+    height: 130px;
+}
+.projects-2 a{
+    text-decoration: none;
+}
+.contact{
+    width: 100%;
+    height: auto;
+    display: grid; 
+}
+.conte{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+    margin: 15px;
+}
+.contima img{
+  width: 500px;
+  height: 350px;
+}
+.form{
+    width: 400px;
+    height: auto;
+    display: grid;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    justify-self: center;
+}
+.form  textarea{
+   width: 450px;
+   height: auto;
+}
+.form button{
+    width: 100px;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background-image: url(/Imagenes/footer.svg) ;
+    *background-size: cover;
+    background-color: blueviolet;
+    mask-image:url(/Imagenes/footer.svg);
+    
+    
+}
+.social-icons{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.social-icons a{
+    font-size: 30px;
+    color: #d50f0f;
+}
+.social-icons p{
+    color: #090909;
+    font-size: 15px;
+}
+
