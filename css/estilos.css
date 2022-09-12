@@ -66,10 +66,10 @@ body{
     height: 30px;
     text-decoration: none;
     background-color: rgb(247, 87, 87);
-    color: black;
+    color: rgb(255, 255, 255);
 }
 .info-1 a:hover{
-    color: rgb(255, 251, 251);
+    color: rgb(10, 10, 10);
 }
 .info-2{
     display: flex;
@@ -274,6 +274,59 @@ footer{
 @media screen and (max-width:690px) {
     header{
         display: none;
+    } 
+    .info{
+        max-width: 450px;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 350px;   
     }
-  
+    .info-2{
+        margin: 15px;
+        justify-self: center;
+    }
+    .info-1{
+        justify-self: center;
+    }
+    .skill{
+        max-width: 450px;
+    }
+    .skill-2{
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 550px;
+    }
+    .logos{
+        margin: 15px;
+        justify-self: center;
+    }
+    .imagen{
+        justify-self: center;
+    }
+    .projects{
+        max-width: 550px;
+        height: 900px;
+    }
+    .contepro{
+        display: grid;
+        grid-template-columns: 1fr;
+        height: 800px;
+    }
+    .conte{
+        max-width: 550px;
+    }
+    .contima img{
+        width: 400px;
+        height: 250px;
+    }
+    .projects-2{
+        width: 350px;
+    }
+    .imapro img{
+        width: 350px;
+        height: 150px;
+
+    }
 }
