@@ -16,6 +16,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: black;
+    
 
 }
 .final{
@@ -26,12 +27,13 @@ header{
     justify-self: end;
     align-items: center;
     margin-right: 20px;
+    flex-wrap: wrap;
 }
 .final a{
     text-decoration: none;
 }
 .inicio {
-    width: 100%;
+    width: 100px;
     height: auto;
     margin-left: 15px;
     display: flex;
@@ -221,3 +223,57 @@ footer{
     font-size: 15px;
 }
 
+@media screen and (max-width:1130px){
+    .form  textarea{
+        width: 350px;
+        height: auto;
+     }
+}
+@media screen and (max-width:950px) {
+   header{
+    display: flex;
+    justify-content: center;
+   }
+    .barra{
+    max-width: 650px;
+   }
+   .info{
+    display: flex;
+    justify-content: center;
+   }
+   .skill-2{
+    display: flex;
+    justify-content: center;
+   }
+   .skill-1{
+    justify-content: center;
+   }
+   .logos{
+    margin: 50px;
+   }
+   .imagen{
+    display: flex;
+    justify-content: end;
+    margin: 50px;
+   }
+   .projects{
+    justify-content: center;
+   }
+   .form{
+    grid-column: 1 / -1;
+   }
+   .conte
+   {
+    grid-template-columns: 1fr;
+   }
+   .contact
+   {
+    justify-content: center;
+   }
+}
+@media screen and (max-width:690px) {
+    header{
+        display: none;
+    }
+  
+}
